@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "parcel serve index.html",
+    "preinstall": "npm pack .. && mv openzeppelin-network-*.tgz oz-network.tgz"
+  },
+  "dependencies": {
+    "@openzeppelin/network": "file:oz-network.tgz",
+    "parcel": "^1.12.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
